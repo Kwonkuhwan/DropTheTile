@@ -1,0 +1,209 @@
+[33mcommit 2feddfca371ed5bfb1fd1e30580d7fce3c876b59[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: a512ea4 1c03b60
+Author: joyjoyjoy <81938345+jk-JOY@users.noreply.github.com>
+Date:   Sun Apr 10 00:07:11 2022 +0900
+
+    Merge branch 'main' of https://github.com/jk-JOY/BestDep_Prototype
+
+[33mcommit a512ea4885e3c1c367751411b24b2198df37e0be[m
+Author: joyjoyjoy <81938345+jk-JOY@users.noreply.github.com>
+Date:   Sat Apr 9 23:59:44 2022 +0900
+
+    Again
+
+[33mcommit 1c03b603f9727df062fd00aa9e8d03d96e3f22ce[m
+Author: J!nk! Ch0! <81938345+jk-JOY@users.noreply.github.com>
+Date:   Sat Apr 9 18:14:26 2022 +0900
+
+    4_9
+
+[33mcommit c269b70adfa72e1ea85baa289a6175e1c7b3bb4a[m
+Author: joyjoyjoy <81938345+jk-JOY@users.noreply.github.com>
+Date:   Thu Apr 7 17:46:38 2022 +0900
+
+    New_Acts
+
+[33mcommit 4aadb2d122863532bbc580fd502f86620656df65[m
+Author: joyjoyjoy <81938345+jk-JOY@users.noreply.github.com>
+Date:   Thu Apr 7 00:58:32 2022 +0900
+
+    Log_reset
+
+[33mcommit 1cda1a628816cf9c38b36ac71db6a489cae97299[m
+Author: joyjoyjoy <81938345+jk-JOY@users.noreply.github.com>
+Date:   Mon Apr 4 21:14:29 2022 +0900
+
+    4_4
+
+[33mcommit 3e9bbb97368ca0134d24367e25d7103c5b17741f[m
+Author: $mall Cho! <81938345+jk-JOY@users.noreply.github.com>
+Date:   Sun Apr 3 23:58:11 2022 +0900
+
+    Update README.md
+
+[33mcommit f5a9e8f7251b5e1eaaf6c6bb05bb9e6e45a08fce[m
+Author: $mall Cho! <81938345+jk-JOY@users.noreply.github.com>
+Date:   Sun Apr 3 23:53:37 2022 +0900
+
+    Create README.md
+
+[33mcommit 7abcacf257e5294511beadde958b5eb93fa83384[m
+Author: joyjoyjoy <81938345+jk-JOY@users.noreply.github.com>
+Date:   Sun Apr 3 23:48:25 2022 +0900
+
+    4_3 네트워크에 대한 이해
+
+[33mcommit fa55ce859531bf07c220fea25aa38ccd75a88792[m
+Author: joyjoyjoy <81938345+jk-JOY@users.noreply.github.com>
+Date:   Sat Apr 2 22:22:29 2022 +0900
+
+    4_3 back to the Main Scene
+
+[33mcommit 8a71999a2b62f66ba2b44579682cfea5ff485ab2[m
+Author: joyjoyjoy <81938345+jk-JOY@users.noreply.github.com>
+Date:   Fri Apr 1 23:41:10 2022 +0900
+
+    again
+
+[33mcommit b3575efdc4846b0570cda25dda690a41f9edf807[m
+Author: joyjoyjoy <81938345+jk-JOY@users.noreply.github.com>
+Date:   Fri Apr 1 23:36:25 2022 +0900
+
+    4_1 Photon_Network 조정
+
+[33mcommit f6f41bc76697fa3d3f5c703fc7ca0269174f52f2[m
+Author: joyjoyjoy <81938345+jk-JOY@users.noreply.github.com>
+Date:   Thu Mar 31 22:49:01 2022 +0900
+
+    restart
+
+[33mcommit 7e2f95139d56063892313465924bf5365015547f[m
+Author: joyjoyjoy <81938345+jk-JOY@users.noreply.github.com>
+Date:   Thu Mar 31 10:16:09 2022 +0900
+
+    3_31 Ingame_Photon_LeaveRoom
+
+[33mcommit 7d68a4733e885fda1022c9d6b0ecedbb26f3d1ad[m
+Author: joyjoyjoy <81938345+jk-JOY@users.noreply.github.com>
+Date:   Wed Mar 30 23:20:25 2022 +0900
+
+    3_30 포톤 MainMenu
+    
+    메인메뉴 그리고 NetworkManger로 변경 및 Ingame 연결 완료
+
+[33mcommit ee8172e7a849fadc4c1c323d728e3cc38956bfbd[m
+Author: joyjoyjoy <81938345+jk-JOY@users.noreply.github.com>
+Date:   Wed Mar 30 18:41:33 2022 +0900
+
+    3_30 포톤PUN.....주여....하.....
+
+[33mcommit bdf795d2a40c6520512071f59d27b301f56445a4[m
+Author: joyjoyjoy <81938345+jk-JOY@users.noreply.github.com>
+Date:   Wed Mar 30 14:06:31 2022 +0900
+
+    3_30 Added Photon PUN2
+
+[33mcommit b2fae3cd9a7460e318a8daabbd64d36181b84879[m
+Author: joyjoyjoy <81938345+jk-JOY@users.noreply.github.com>
+Date:   Tue Mar 29 21:03:11 2022 +0900
+
+    Done_DOTweenPro
+
+[33mcommit a44bd7ffda017f62e14f4dfad54a635ad4b5627b[m
+Author: joyjoyjoy <81938345+jk-JOY@users.noreply.github.com>
+Date:   Tue Mar 29 16:44:56 2022 +0900
+
+    3_29
+
+[33mcommit b226de8a73d696b204dade660c899d932159f7b9[m
+Author: joyjoyjoy <81938345+jk-JOY@users.noreply.github.com>
+Date:   Mon Mar 28 23:33:57 2022 +0900
+
+    3_28
+
+[33mcommit d12b95feb5cdb229b545eb82bdf48ad9b1d6fc4c[m
+Author: joyjoyjoy <81938345+jk-JOY@users.noreply.github.com>
+Date:   Mon Mar 28 18:24:22 2022 +0900
+
+    Ok
+
+[33mcommit 8bb72914b7c258e3e852e91e7c574a8a45dd4ba8[m
+Author: joyjoyjoy <81938345+jk-JOY@users.noreply.github.com>
+Date:   Mon Mar 28 18:21:45 2022 +0900
+
+    3_28 New Asset
+    
+    새로운 Asset과 TurnBased Game
+
+[33mcommit 5a39c5f6aac6b3f7e7a7d6bd2113524af327f31a[m
+Author: joyjoyjoy <81938345+jk-JOY@users.noreply.github.com>
+Date:   Mon Mar 28 18:13:05 2022 +0900
+
+    3_28
+
+[33mcommit e72e9d31dd2d6194b3e79a9214642d899cc0912a[m
+Author: joyjoyjoy <81938345+jk-JOY@users.noreply.github.com>
+Date:   Mon Mar 28 01:25:25 2022 +0900
+
+    3_28
+
+[33mcommit 56518eff94f99e8bb2dc2f38273aaba12314189a[m
+Author: joyjoyjoy <81938345+jk-JOY@users.noreply.github.com>
+Date:   Sun Mar 27 22:12:04 2022 +0900
+
+    3_27
+
+[33mcommit 4585baab631ad6c16b39f1dfcb3f3514f0e088b3[m
+Author: joyjoyjoy <81938345+jk-JOY@users.noreply.github.com>
+Date:   Sat Mar 26 23:59:01 2022 +0900
+
+    3_26
+    
+    그래도 할 수 있다...그럼에도 불구하고
+    할 수 있다.
+
+[33mcommit b970e343f4208b9195035301fbb5937198f11742[m
+Author: joyjoyjoy <81938345+jk-JOY@users.noreply.github.com>
+Date:   Sat Mar 26 23:40:15 2022 +0900
+
+    3_26
+
+[33mcommit 821c9b8be82ec4eb90ccf97e73d71f444f475710[m
+Author: joyjoyjoy <81938345+jk-JOY@users.noreply.github.com>
+Date:   Fri Mar 25 23:45:05 2022 +0900
+
+    3_25 PlayerMovement 기본
+
+[33mcommit 7d62aab2fc0943cfbda53c4ba5592b3eaafd9844[m
+Author: joyjoyjoy <81938345+jk-JOY@users.noreply.github.com>
+Date:   Thu Mar 24 18:53:44 2022 +0900
+
+    3_24 Photon Pun2 前 Version
+    
+    현재 플레이어 움직임 전단계
+
+[33mcommit dfa8f57c1862d1d87a52ff4d863415b8b7556193[m
+Author: joyjoyjoy <81938345+jk-JOY@users.noreply.github.com>
+Date:   Wed Mar 23 23:50:43 2022 +0900
+
+    3_23
+    
+    역발상으로 십년감수
+    소가 안움직이면, 외양간을 옮겨라
+
+[33mcommit 7de4cdebdd098eb08321126911338d6956b822c1[m
+Author: joyjoyjoy <81938345+jk-JOY@users.noreply.github.com>
+Date:   Wed Mar 23 18:22:19 2022 +0900
+
+    3_23 캐릭터작업
+    
+    유의사항_
+    1.에러가 뜰때는 로그를 제대로 읽자.
+    2. 저장을 수시로 하자
+    3. 겸손하게 내가 못한 부분을 찾아내자.
+
+[33mcommit ee7335f82965e0b4878fe7556e68a9ee6e107e9f[m
+Author: $mall Cho! <81938345+jk-JOY@users.noreply.github.com>
+Date:   Wed Mar 23 18:19:05 2022 +0900
+
+    Initial commit
