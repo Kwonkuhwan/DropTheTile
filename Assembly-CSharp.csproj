@@ -53,82 +53,148 @@
     <UnityVersion>2020.3.6f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Assets\TBS Framework\Scripts\Units\UnitStates\UnitState.cs" />
     <Compile Include="Assets\Photon\PhotonRealtime\Demos\DemoLoadBalancing\ConnectAndJoinRandomLb.cs" />
-    <Compile Include="Assets\Best_Department\Scripts\GPGS_Scripts\GPGSBinder.cs" />
-    <Compile Include="Assets\TBS Framework\Examples\Example5\Scripts\FireballAIAction.cs" />
     <Compile Include="Assets\TBS Framework\Scripts\Players\HumanPlayer.cs" />
     <Compile Include="Assets\Player_Manager.cs" />
     <Compile Include="Assets\TBS Framework\Examples\Example5\Scripts\AutoTurnFinish.cs" />
-    <Compile Include="Assets\GooglePlayGames\OurUtils\PlatformUtils.cs" />
     <Compile Include="Assets\TBS Framework\Scripts\Units\Highlighters\GlowHighlighter.cs" />
-    <Compile Include="Assets\TBS Framework\Examples\Example4\Scripts\DisableComponent.cs" />
-    <Compile Include="Assets\TBS Framework\Examples\Example5\Scripts\HPUpdate.cs" />
-    <Compile Include="Assets\TBS Framework\Examples\Example1\Scripts\AttackBuff.cs" />
-    <Compile Include="Assets\Photon\PhotonLibs\WebSocket\WebSocket.cs" />
     <Compile Include="Assets\GooglePlayGames\BasicApi\Events\Event.cs" />
-    <Compile Include="Assets\Photon\PhotonChat\Demos\Common\TextButtonTransition.cs" />
-    <Compile Include="Assets\Best_Department\Scripts\PushUnit.cs" />
     <Compile Include="Assets\TBS Framework\Scripts\Grid\TurnResolvers\Speed.cs" />
-    <Compile Include="Assets\TBS Framework\Examples\Example4\Scripts\EconomyController.cs" />
     <Compile Include="Assets\GooglePlayGames\BasicApi\SavedGame\ISavedGameMetadata.cs" />
     <Compile Include="Assets\TBS Framework\Examples\Example4\Scripts\AdvWrsSquare.cs" />
-    <Compile Include="Assets\TBS Framework\Examples\Example5\Scripts\SpellAbility.cs" />
-    <Compile Include="Assets\Best_Department\Scripts\Photon_Scripts_(Feat.Silva)\Scripts\Launcher.cs" />
-    <Compile Include="Assets\TBS Framework\Scripts\Grid\UnitGenerators\RandomUnitGenerator.cs" />
     <Compile Include="Assets\Photon\PhotonLibs\WebSocket\SocketWebTcp.cs" />
-    <Compile Include="Assets\GooglePlayGames\OurUtils\NearbyHelperObject.cs" />
     <Compile Include="Assets\TBS Framework\Scripts\Players\AI\Evaluators\UnitProximityCellEvaluator.cs" />
     <Compile Include="Assets\TBS Framework\Scripts\Players\AI\Evaluators\AlliesNerbyEvaluator.cs" />
-    <Compile Include="Assets\TBS Framework\Examples\Example1\Scripts\MyHexagon.cs" />
-    <Compile Include="Assets\GooglePlayGames\BasicApi\Video\VideoCapabilities.cs" />
-    <Compile Include="Assets\GooglePlayGames\BasicApi\DummyClient.cs" />
     <Compile Include="Assets\TBS Framework\Scripts\Pathfinding\Algorithms\DijkstraPathfinding.cs" />
-    <Compile Include="Assets\GooglePlayGames\ISocialPlatform\PlayGamesPlatform.cs" />
-    <Compile Include="Assets\TBS Framework\Examples\Example4\Scripts\CaptureProtectionEvaluator.cs" />
-    <Compile Include="Assets\UIManager.cs" />
     <Compile Include="Assets\TBS Framework\Scripts\Grid\TurnResolvers\TransitionResult.cs" />
-    <Compile Include="Assets\TBS Framework\Examples\Example5\Scripts\LightningAIAction.cs" />
-    <Compile Include="Assets\GooglePlayGames\ISocialPlatform\PlayGamesAchievement.cs" />
     <Compile Include="Assets\TBS Framework\Scripts\Units\UnitStates\UnitStateMarkedAsReachableEnemy.cs" />
+    <Compile Include="Assets\GooglePlayGames\ISocialPlatform\PlayGamesAchievement.cs" />
     <Compile Include="Assets\TBS Framework\Scripts\Grid\GridStates\CellGridStateGameOver.cs" />
-    <Compile Include="Assets\GooglePlayGames\BasicApi\Events\IEvent.cs" />
     <Compile Include="Assets\GooglePlayGames\BasicApi\Nearby\INearbyConnectionClient.cs" />
-    <Compile Include="Assets\TBS Framework\Scripts\Players\Player.cs" />
-    <Compile Include="Assets\TBS Framework\Scripts\Grid\GameResolvers\PositionCondition.cs" />
-    <Compile Include="Assets\TBS Framework\Scripts\Units\Buff.cs" />
-    <Compile Include="Assets\TBS Framework\Scripts\Players\AI\Evaluators\CellEvaluator.cs" />
     <Compile Include="Assets\TBS Framework\Scripts\Units\Highlighters\SpriteRendererGlowHighlighter.cs" />
     <Compile Include="Assets\GooglePlayGames\BasicApi\CommonStatusCodes.cs" />
-    <Compile Include="Assets\Best_Department\Scripts\Photon_Scripts_(Feat.Silva)\FastIn\GameManager.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\ChatAppIdCheckerUI.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\AppSettingsExtensions.cs" />
-    <Compile Include="Assets\TBS Framework\Examples\Example4\Scripts\CaptureAbility.cs" />
-    <Compile Include="Assets\TBS Framework\Examples\Example5\Scripts\HOMMGameResolver.cs" />
-    <Compile Include="Assets\TBS Framework\Examples\Example4\Scripts\Price.cs" />
     <Compile Include="Assets\GooglePlayGames\BasicApi\SignInStatus.cs" />
     <Compile Include="Assets\TBS Framework\Scripts\Units\UnitStates\UnitStateMarkedAsFinished.cs" />
     <Compile Include="Assets\GooglePlayGames\BasicApi\Achievement.cs" />
     <Compile Include="Assets\TBS Framework\Scripts\Cells\Hexagon.cs" />
+    <Compile Include="Assets\TBS Framework\Examples\Example4\Scripts\AdvWrsUnit.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Units\Highlighters\AttackAnimation.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Grid\GridStates\CellGridStateWaitingForInput.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Players\NaiveAiPlayer.cs" />
+    <Compile Include="Assets\Best_Department\Scripts\Photon_Scripts_(Feat.Silva)\FastIn\PlayerCtrl.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Android\AndroidNearbyConnectionClient.cs" />
+    <Compile Include="Assets\GooglePlayGames\BasicApi\Video\IVideoClient.cs" />
+    <Compile Include="Assets\GooglePlayGames\ISocialPlatform\PlayGamesScore.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Android\AndroidSavedGameClient.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Grid\UnitGenerators\IUnitGenerator.cs" />
+    <Compile Include="Assets\TBS Framework\Examples\Example4\Scripts\HPUpdate.cs" />
+    <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\ChannelSelector.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Gui\CameraController.cs" />
+    <Compile Include="Assets\TBS Framework\Examples\Example4\Scripts\GuiController.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Pathfinding\Algorithms\IPathfinding.cs" />
+    <Compile Include="Assets\TBS Framework\Examples\Example4\Scripts\CapturingUnitEvaluator.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Grid\UnitGenerators\CustomUnitGenerator.cs" />
+    <Compile Include="Assets\GooglePlayGames\BasicApi\PlayGamesClientConfiguration.cs" />
+    <Compile Include="Assets\Best_Department\Scripts\Photon_Scripts_(Feat.Silva)\PrefabPool.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Grid\GridStates\CellGridStateAbilitySelected.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Grid\GameEndedArgs.cs" />
+    <Compile Include="Assets\GooglePlayGames\OurUtils\Logger.cs" />
+    <Compile Include="Assets\TBS Framework\Examples\Example4\Scripts\AdvWrsUnitSelection.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Units\Highlighters\RendererHighlighter.cs" />
+    <Compile Include="Assets\TBS Framework\Examples\Example4\Scripts\CounterSpawnCondition.cs" />
+    <Compile Include="Assets\TBS Framework\Examples\Example5\Scripts\LightningSpell.cs" />
+    <Compile Include="Assets\GooglePlayGames\BasicApi\Nearby\AdvertisingResult.cs" />
+    <Compile Include="Assets\GooglePlayGames\BasicApi\Video\VideoCaptureState.cs" />
+    <Compile Include="Assets\TBS Framework\Examples\Example4\Scripts\CapturableAbility.cs" />
+    <Compile Include="Assets\GooglePlayGames\BasicApi\SignInInteractivity.cs" />
+    <Compile Include="Assets\Photon\PhotonChat\Demos\Common\EventSystemSpawner.cs" />
+    <Compile Include="Assets\GooglePlayGames\OurUtils\Misc.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Players\AI\Evaluators\DamageRecievedCellEvaluator.cs" />
+    <Compile Include="Assets\TBS Framework\Examples\Example1\Scripts\Hero.cs" />
+    <Compile Include="Assets\GooglePlayGames\BasicApi\SavedGame\SavedGameMetadataUpdate.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Android\AndroidHelperFragment.cs" />
+    <Compile Include="Assets\RoomManager.cs" />
+    <Compile Include="Assets\TBS Framework\Examples\Example5\Scripts\SpellCastingAbility.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Pathfinding\DataStructs\IGraphNode.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Units\UnitStates\UnitStateNormal.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Grid\GameResolvers\TurnLimitCondition.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Grid\CellGrid.cs" />
+    <Compile Include="Assets\TBS Framework\Examples\Example1\Scripts\HealingBuff.cs" />
+    <Compile Include="Assets\GooglePlayGames\BasicApi\Player.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Players\AI\UnitSelection.cs" />
+    <Compile Include="Assets\GooglePlayGames\BasicApi\SavedGame\ISavedGameClient.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Units\Abilities\Ability.cs" />
+    <Compile Include="Assets\Best_Department\Scripts\TileValue.cs" />
+    <Compile Include="Assets\GooglePlayGames\ISocialPlatform\PlayGamesLeaderboard.cs" />
+    <Compile Include="Assets\TBS Framework\Examples\Example1\Scripts\AoeAttackAbility.cs" />
+    <Compile Include="Assets\GooglePlayGames\BasicApi\Nearby\NearbyConnectionConfiguration.cs" />
+    <Compile Include="Assets\TBS Framework\Examples\Example4\Scripts\DeselectUnitAbility.cs" />
+    <Compile Include="Assets\TBS Framework\Examples\Example5\Scripts\HOMMGUIController.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\NearbyConnectionClientFactory.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Players\AI\Actions\AttackAIAction.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Cells\Highlighters\CellHighlighter.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Players\AI\Evaluators\DistanceCellEvaluator.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Android\AndroidClient.cs" />
+    <Compile Include="Assets\TBS Framework\Examples\Example1\Scripts\DefenceBuff.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Players\AI\Actions\AIAction.cs" />
+    <Compile Include="Assets\TBS Framework\Examples\Example1\Scripts\Archer.cs" />
+    <Compile Include="Assets\TBS Framework\Examples\Example1\Scripts\GuiController.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Players\AIPlayer.cs" />
+    <Compile Include="Assets\TBS Framework\Examples\Example4\Scripts\IncomeGenerationAbility.cs" />
+    <Compile Include="Assets\TBS Framework\Examples\Example1\Scripts\MyUnit.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Players\AI\Evaluators\RandomCellEvaluator.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Units\Highlighters\SpriteRendererHighlighter.cs" />
+    <Compile Include="Assets\TBS Framework\Examples\Example4\Scripts\SpawnAbility.cs" />
+    <Compile Include="Assets\TBS Framework\Examples\Example4\Scripts\SpawnCondition.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Units\Abilities\MoveAbility.cs" />
+    <Compile Include="Assets\GooglePlayGames\ISocialPlatform\PlayGamesUserProfile.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Grid\GameResolvers\GameEndCondition.cs" />
+    <Compile Include="Assets\TBS Framework\Examples\Tutorial\Scripts\SampleUnit.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Units\UnitStates\UnitState.cs" />
+    <Compile Include="Assets\Best_Department\Scripts\GPGS_Scripts\GPGSBinder.cs" />
+    <Compile Include="Assets\TBS Framework\Examples\Example5\Scripts\FireballAIAction.cs" />
+    <Compile Include="Assets\GooglePlayGames\OurUtils\PlatformUtils.cs" />
+    <Compile Include="Assets\TBS Framework\Examples\Example4\Scripts\DisableComponent.cs" />
+    <Compile Include="Assets\TBS Framework\Examples\Example5\Scripts\HPUpdate.cs" />
+    <Compile Include="Assets\TBS Framework\Examples\Example1\Scripts\AttackBuff.cs" />
+    <Compile Include="Assets\Photon\PhotonLibs\WebSocket\WebSocket.cs" />
+    <Compile Include="Assets\Photon\PhotonChat\Demos\Common\TextButtonTransition.cs" />
+    <Compile Include="Assets\Best_Department\Scripts\PushUnit.cs" />
+    <Compile Include="Assets\TBS Framework\Examples\Example4\Scripts\EconomyController.cs" />
+    <Compile Include="Assets\TBS Framework\Examples\Example5\Scripts\SpellAbility.cs" />
+    <Compile Include="Assets\Best_Department\Scripts\Photon_Scripts_(Feat.Silva)\Scripts\Launcher.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Grid\UnitGenerators\RandomUnitGenerator.cs" />
+    <Compile Include="Assets\GooglePlayGames\OurUtils\NearbyHelperObject.cs" />
+    <Compile Include="Assets\TBS Framework\Examples\Example1\Scripts\MyHexagon.cs" />
+    <Compile Include="Assets\GooglePlayGames\BasicApi\Video\VideoCapabilities.cs" />
+    <Compile Include="Assets\GooglePlayGames\BasicApi\DummyClient.cs" />
+    <Compile Include="Assets\GooglePlayGames\ISocialPlatform\PlayGamesPlatform.cs" />
+    <Compile Include="Assets\Best_Department\Scripts\PlayFab_Scripts\PlayFabManager___.cs" />
+    <Compile Include="Assets\TBS Framework\Examples\Example4\Scripts\CaptureProtectionEvaluator.cs" />
+    <Compile Include="Assets\UIManager.cs" />
+    <Compile Include="Assets\TBS Framework\Examples\Example5\Scripts\LightningAIAction.cs" />
+    <Compile Include="Assets\GooglePlayGames\BasicApi\Events\IEvent.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Players\Player.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Grid\GameResolvers\PositionCondition.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Units\Buff.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Players\AI\Evaluators\CellEvaluator.cs" />
+    <Compile Include="Assets\Best_Department\Scripts\Photon_Scripts_(Feat.Silva)\FastIn\GameManager.cs" />
+    <Compile Include="Assets\TBS Framework\Examples\Example4\Scripts\CaptureAbility.cs" />
+    <Compile Include="Assets\TBS Framework\Examples\Example5\Scripts\HOMMGameResolver.cs" />
+    <Compile Include="Assets\TBS Framework\Examples\Example4\Scripts\Price.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\NamePickGui.cs" />
-    <Compile Include="Assets\TBS Framework\Scripts\Players\AI\Evaluators\HPUnitEvaluator.cs" />
     <Compile Include="Assets\GooglePlayGames\Platforms\Android\AndroidJavaConverter.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Players\AI\Evaluators\HPUnitEvaluator.cs" />
     <Compile Include="Assets\TBS Framework\Scripts\Units\Unit.cs" />
     <Compile Include="Assets\TBS Framework\Scripts\Players\AI\SubsequentUnitSelection.cs" />
     <Compile Include="Assets\GooglePlayGames\Platforms\Android\AndroidTaskUtils.cs" />
-    <Compile Include="Assets\TBS Framework\Examples\Example4\Scripts\AdvWrsUnit.cs" />
-    <Compile Include="Assets\TBS Framework\Scripts\Units\Highlighters\AttackAnimation.cs" />
     <Compile Include="Assets\TBS Framework\Scripts\Units\Highlighters\UnitHighlighterAggregator.cs" />
-    <Compile Include="Assets\TBS Framework\Scripts\Grid\GridStates\CellGridStateWaitingForInput.cs" />
     <Compile Include="Assets\TBS Framework\Scripts\Players\AI\Evaluators\DamageCellEvaluator.cs" />
     <Compile Include="Assets\GooglePlayGames\BasicApi\Nearby\DummyNearbyConnectionClient.cs" />
-    <Compile Include="Assets\TBS Framework\Scripts\Players\NaiveAiPlayer.cs" />
     <Compile Include="Assets\GooglePlayGames\Platforms\PlayGamesClientFactory.cs" />
     <Compile Include="Assets\GooglePlayGames\GameInfo.cs" />
-    <Compile Include="Assets\Best_Department\Scripts\Photon_Scripts_(Feat.Silva)\FastIn\PlayerCtrl.cs" />
     <Compile Include="Assets\GooglePlayGames\ISocialPlatform\PlayGamesLocalUser.cs" />
     <Compile Include="Assets\TBS Framework\Scripts\Players\AI\Evaluators\PositionProximityCellEvaluator.cs" />
     <Compile Include="Assets\TBS Framework\Scripts\Cells\Highlighters\CellSpriteRendererHighlighter.cs" />
@@ -136,105 +202,59 @@
     <Compile Include="Assets\TBS Framework\Scripts\Pathfinding\DataStructs\IPriorityQueue.cs" />
     <Compile Include="Assets\TBS Framework\Examples\Example4\Scripts\SpawnAIAction.cs" />
     <Compile Include="Assets\GooglePlayGames\BasicApi\Events\IEventsClient.cs" />
-    <Compile Include="Assets\GooglePlayGames\Platforms\Android\AndroidNearbyConnectionClient.cs" />
-    <Compile Include="Assets\GooglePlayGames\BasicApi\Video\IVideoClient.cs" />
     <Compile Include="Assets\TBS Framework\Examples\Example4\Scripts\CaptureAIAction.cs" />
-    <Compile Include="Assets\GooglePlayGames\ISocialPlatform\PlayGamesScore.cs" />
-    <Compile Include="Assets\GooglePlayGames\Platforms\Android\AndroidSavedGameClient.cs" />
-    <Compile Include="Assets\TBS Framework\Scripts\Grid\UnitGenerators\IUnitGenerator.cs" />
     <Compile Include="Assets\TBS Framework\Scripts\Grid\TurnResolvers\SubsequentTurnResolver.cs" />
     <Compile Include="Assets\TBS Framework\Examples\Example4\Scripts\AdvWrsWizard.cs" />
     <Compile Include="Assets\TBS Framework\Scripts\Units\Highlighters\UnitHighlighter.cs" />
     <Compile Include="Assets\TBS Framework\Scripts\Units\UnitStates\UnitStateMarkedAsFriendly.cs" />
     <Compile Include="Assets\GooglePlayGames\BasicApi\IPlayGamesClient.cs" />
     <Compile Include="Assets\TBS Framework\Examples\Example4\Scripts\StructureCaptureCondition.cs" />
-    <Compile Include="Assets\TBS Framework\Examples\Example4\Scripts\HPUpdate.cs" />
     <Compile Include="Assets\GooglePlayGames\BasicApi\Video\CaptureOverlayStateListener.cs" />
     <Compile Include="Assets\GooglePlayGames\BasicApi\CommonTypes.cs" />
     <Compile Include="Assets\TBS Framework\Scripts\Grid\GridStates\CellGridStateAITurn.cs" />
     <Compile Include="Assets\TBS Framework\Scripts\Grid\GameResolvers\DominationCondition.cs" />
-    <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\ChannelSelector.cs" />
-    <Compile Include="Assets\TBS Framework\Scripts\Gui\CameraController.cs" />
-    <Compile Include="Assets\TBS Framework\Examples\Example4\Scripts\GuiController.cs" />
-    <Compile Include="Assets\TBS Framework\Scripts\Pathfinding\Algorithms\IPathfinding.cs" />
     <Compile Include="Assets\GooglePlayGames\Platforms\Android\AndroidSnapshotMetadata.cs" />
     <Compile Include="Assets\GooglePlayGames\BasicApi\ScorePageToken.cs" />
-    <Compile Include="Assets\TBS Framework\Examples\Example4\Scripts\CapturingUnitEvaluator.cs" />
     <Compile Include="Assets\GooglePlayGames\Platforms\Android\AndroidVideoClient.cs" />
-    <Compile Include="Assets\TBS Framework\Scripts\Grid\UnitGenerators\CustomUnitGenerator.cs" />
     <Compile Include="Assets\TBS Framework\Scripts\Grid\TurnResolvers\TurnResolver.cs" />
-    <Compile Include="Assets\GooglePlayGames\BasicApi\PlayGamesClientConfiguration.cs" />
     <Compile Include="Assets\TBS Framework\Scripts\Units\Abilities\AttackAbility.cs" />
     <Compile Include="Assets\GooglePlayGames\PluginVersion.cs" />
-    <Compile Include="Assets\Best_Department\Scripts\Photon_Scripts_(Feat.Silva)\PrefabPool.cs" />
-    <Compile Include="Assets\TBS Framework\Scripts\Grid\GridStates\CellGridStateAbilitySelected.cs" />
     <Compile Include="Assets\TBS Framework\Examples\Example1\Scripts\Spearman.cs" />
     <Compile Include="Assets\TBS Framework\Examples\Example4\Scripts\SummaryUI.cs" />
     <Compile Include="Assets\Best_Department\Scripts\Photon_Scripts_(Feat.Silva)\Scripts\Menu.cs" />
     <Compile Include="Assets\GooglePlayGames\BasicApi\LeaderboardScoreData.cs" />
-    <Compile Include="Assets\TBS Framework\Scripts\Grid\GameEndedArgs.cs" />
     <Compile Include="Assets\TBS Framework\Examples\Example1\Scripts\ApplyBuffAbility.cs" />
     <Compile Include="Assets\TBS Framework\Examples\Example4\Scripts\AmountSpawnCondition.cs" />
-    <Compile Include="Assets\GooglePlayGames\OurUtils\Logger.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\IgnoreUiRaycastWhenInactive.cs" />
     <Compile Include="Assets\TBS Framework\Scripts\Grid\TurnResolvers\SpeedTurnResolver.cs" />
-    <Compile Include="Assets\TBS Framework\Examples\Example4\Scripts\AdvWrsUnitSelection.cs" />
     <Compile Include="Assets\GooglePlayGames\BasicApi\PlayerStats.cs" />
-    <Compile Include="Assets\TBS Framework\Scripts\Units\Highlighters\RendererHighlighter.cs" />
     <Compile Include="Assets\TBS Framework\Examples\Example4\Scripts\CaptureCellEvaluator.cs" />
     <Compile Include="Assets\TBS Framework\Scripts\Players\AI\Actions\MoveToPositionAIAction.cs" />
-    <Compile Include="Assets\TBS Framework\Examples\Example4\Scripts\CounterSpawnCondition.cs" />
-    <Compile Include="Assets\TBS Framework\Examples\Example5\Scripts\LightningSpell.cs" />
-    <Compile Include="Assets\GooglePlayGames\BasicApi\Nearby\AdvertisingResult.cs" />
-    <Compile Include="Assets\GooglePlayGames\BasicApi\Video\VideoCaptureState.cs" />
-    <Compile Include="Assets\TBS Framework\Examples\Example4\Scripts\CapturableAbility.cs" />
     <Compile Include="Assets\GooglePlayGames\Platforms\TokenClient.cs" />
     <Compile Include="Assets\TBS Framework\Scripts\Grid\GameResolvers\GameResult.cs" />
     <Compile Include="Assets\TBS Framework\Scripts\Pathfinding\Algorithms\AStarPathfinding.cs" />
-    <Compile Include="Assets\GooglePlayGames\BasicApi\SignInInteractivity.cs" />
-    <Compile Include="Assets\Photon\PhotonChat\Demos\Common\EventSystemSpawner.cs" />
-    <Compile Include="Assets\GooglePlayGames\OurUtils\Misc.cs" />
-    <Compile Include="Assets\TBS Framework\Scripts\Players\AI\Evaluators\DamageRecievedCellEvaluator.cs" />
     <Compile Include="Assets\TBS Framework\Scripts\Players\AI\Evaluators\UnitEvaluator.cs" />
     <Compile Include="Assets\Best_Department\Scripts\Photon_Scripts_(Feat.Silva)\FastIn\PhotonManager.cs" />
-    <Compile Include="Assets\TBS Framework\Examples\Example1\Scripts\Hero.cs" />
     <Compile Include="Assets\Best_Department\Scripts\Photon_Scripts_(Feat.Silva)\NetworkManager.cs" />
     <Compile Include="Assets\TBS Framework\Scripts\Grid\GridStates\CellGridStateBlockInput.cs" />
-    <Compile Include="Assets\GooglePlayGames\BasicApi\SavedGame\SavedGameMetadataUpdate.cs" />
-    <Compile Include="Assets\GooglePlayGames\Platforms\Android\AndroidHelperFragment.cs" />
     <Compile Include="Assets\Best_Department\Scripts\CameraResolution.cs" />
-    <Compile Include="Assets\TBS Framework\Examples\Example5\Scripts\SpellCastingAbility.cs" />
-    <Compile Include="Assets\RoomManager.cs" />
     <Compile Include="Assets\GooglePlayGames\BasicApi\Nearby\ConnectionResponse.cs" />
     <Compile Include="Assets\TBS Framework\Examples\Example5\Scripts\HOMMTurnResolver.cs" />
-    <Compile Include="Assets\TBS Framework\Scripts\Pathfinding\DataStructs\IGraphNode.cs" />
-    <Compile Include="Assets\TBS Framework\Scripts\Units\UnitStates\UnitStateNormal.cs" />
-    <Compile Include="Assets\TBS Framework\Scripts\Grid\GameResolvers\TurnLimitCondition.cs" />
     <Compile Include="Assets\TBS Framework\Scripts\Cells\Highlighters\CellRendererHighlighter.cs" />
     <Compile Include="Assets\TBS Framework\Examples\Example5\Scripts\HOMMUnit.cs" />
-    <Compile Include="Assets\TBS Framework\Scripts\Grid\CellGrid.cs" />
     <Compile Include="Assets\Best_Department\Scripts\Photon_Scripts_(Feat.Silva)\Scripts\MenuManager.cs" />
-    <Compile Include="Assets\TBS Framework\Examples\Example1\Scripts\HealingBuff.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\FriendItem.cs" />
-    <Compile Include="Assets\GooglePlayGames\BasicApi\Player.cs" />
     <Compile Include="Assets\TBS Framework\Scripts\Players\AI\Evaluators\DamageUnitEvaluator.cs" />
-    <Compile Include="Assets\TBS Framework\Scripts\Players\AI\UnitSelection.cs" />
     <Compile Include="Assets\GooglePlayGames\BasicApi\Nearby\ConnectionRequest.cs" />
-    <Compile Include="Assets\GooglePlayGames\Platforms\Android\AndroidEventsClient.cs" />
     <Compile Include="Assets\TBS Framework\Examples\Example1\Scripts\Paladin.cs" />
-    <Compile Include="Assets\TBS Framework\Scripts\Units\Abilities\Ability.cs" />
-    <Compile Include="Assets\GooglePlayGames\BasicApi\SavedGame\ISavedGameClient.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Android\AndroidEventsClient.cs" />
     <Compile Include="Assets\GooglePlayGames\OurUtils\PlayGamesHelperObject.cs" />
-    <Compile Include="Assets\Best_Department\Scripts\TileValue.cs" />
-    <Compile Include="Assets\GooglePlayGames\ISocialPlatform\PlayGamesLeaderboard.cs" />
     <Compile Include="Assets\TBS Framework\Examples\Example4\Scripts\ColorComponent.cs" />
-    <Compile Include="Assets\TBS Framework\Examples\Example1\Scripts\AoeAttackAbility.cs" />
     <Compile Include="Assets\TBS Framework\Scripts\Grid\GameResolvers\ObjectiveDestroyCondition.cs" />
     <Compile Include="Assets\TBS Framework\Scripts\Grid\GridStates\CellGridState.cs" />
     <Compile Include="Assets\TBS Framework\Scripts\Players\AI\MovementFreedomUnitSelection.cs" />
     <Compile Include="Assets\TBS Framework\Scripts\Units\Highlighters\DefenceAnimation.cs" />
     <Compile Include="Assets\TBS Framework\Examples\Example5\Scripts\SpellDetails.cs" />
-    <Compile Include="Assets\GooglePlayGames\BasicApi\Nearby\NearbyConnectionConfiguration.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\ChatGui.cs" />
     <Compile Include="Assets\GooglePlayGames\BasicApi\PlayerProfile.cs" />
     <Compile Include="Assets\TBS Framework\Examples\Example1\Scripts\AoeBuffAbility.cs" />
@@ -242,40 +262,18 @@
     <Compile Include="Assets\TBS Framework\Scripts\Cells\Square.cs" />
     <Compile Include="Assets\GPGSIds.cs" />
     <Compile Include="Assets\Best_Department\Scripts\DeadZone.cs" />
-    <Compile Include="Assets\TBS Framework\Examples\Example5\Scripts\HOMMGUIController.cs" />
-    <Compile Include="Assets\TBS Framework\Examples\Example4\Scripts\DeselectUnitAbility.cs" />
-    <Compile Include="Assets\GooglePlayGames\Platforms\NearbyConnectionClientFactory.cs" />
     <Compile Include="Assets\GooglePlayGames\BasicApi\SignInHelper.cs" />
-    <Compile Include="Assets\TBS Framework\Scripts\Players\AI\Actions\AttackAIAction.cs" />
     <Compile Include="Assets\TBS Framework\Examples\Example5\Scripts\HOMMHex.cs" />
-    <Compile Include="Assets\TBS Framework\Scripts\Cells\Highlighters\CellHighlighter.cs" />
-    <Compile Include="Assets\GooglePlayGames\Platforms\Android\AndroidClient.cs" />
-    <Compile Include="Assets\TBS Framework\Scripts\Players\AI\Evaluators\DistanceCellEvaluator.cs" />
     <Compile Include="Assets\TBS Framework\Scripts\Cells\Cell.cs" />
-    <Compile Include="Assets\TBS Framework\Examples\Example1\Scripts\DefenceBuff.cs" />
-    <Compile Include="Assets\TBS Framework\Scripts\Players\AI\Actions\AIAction.cs" />
     <Compile Include="Assets\Best_Department\Scripts\GPGS_Scripts\GPGS_Script.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\TextToggleIsOnTransition.cs" />
     <Compile Include="Assets\GooglePlayGames\Platforms\Android\AndroidTokenClient.cs" />
     <Compile Include="Assets\TBS Framework\Examples\Example5\Scripts\FireballSpell.cs" />
     <Compile Include="Assets\Best_Department\Scripts\GPGS_Scripts\Test.cs" />
-    <Compile Include="Assets\TBS Framework\Examples\Example1\Scripts\GuiController.cs" />
-    <Compile Include="Assets\TBS Framework\Examples\Example1\Scripts\Archer.cs" />
     <Compile Include="Assets\TBS Framework\Scripts\Pathfinding\DataStructs\HeapPriorityQueue.cs" />
-    <Compile Include="Assets\TBS Framework\Scripts\Players\AIPlayer.cs" />
-    <Compile Include="Assets\TBS Framework\Examples\Example4\Scripts\IncomeGenerationAbility.cs" />
-    <Compile Include="Assets\TBS Framework\Examples\Example1\Scripts\MyUnit.cs" />
-    <Compile Include="Assets\TBS Framework\Scripts\Players\AI\Evaluators\RandomCellEvaluator.cs" />
-    <Compile Include="Assets\TBS Framework\Scripts\Units\Highlighters\SpriteRendererHighlighter.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\OnStartDelete.cs" />
-    <Compile Include="Assets\TBS Framework\Examples\Example4\Scripts\SpawnAbility.cs" />
-    <Compile Include="Assets\TBS Framework\Examples\Example4\Scripts\SpawnCondition.cs" />
-    <Compile Include="Assets\TBS Framework\Scripts\Units\Abilities\MoveAbility.cs" />
-    <Compile Include="Assets\GooglePlayGames\ISocialPlatform\PlayGamesUserProfile.cs" />
     <Compile Include="Assets\GooglePlayGames\BasicApi\Nearby\EndpointDetails.cs" />
     <Compile Include="Assets\TBS Framework\Examples\Example5\Scripts\Spell.cs" />
-    <Compile Include="Assets\TBS Framework\Scripts\Grid\GameResolvers\GameEndCondition.cs" />
-    <Compile Include="Assets\TBS Framework\Examples\Tutorial\Scripts\SampleUnit.cs" />
     <Compile Include="Assets\TBS Framework\Scripts\Gui\GUIController.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -957,6 +955,18 @@
       <Project>{99A7362D-12AF-1540-0071-D31D06642F43}</Project>
       <Name>PhotonChat</Name>
     </ProjectReference>
+    <ProjectReference Include="PlayFabSDKEditor.csproj">
+      <Project>{D5B69954-F376-BE24-3CAD-C3CFE77300D5}</Project>
+      <Name>PlayFabSDKEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="PlayFabEditorExtensions.csproj">
+      <Project>{90CCB214-FAD7-9A3A-C4AC-D2116491E443}</Project>
+      <Name>PlayFabEditorExtensions</Name>
+    </ProjectReference>
+    <ProjectReference Include="PlayFab.csproj">
+      <Project>{5C8311E3-3210-0047-510D-6D1C41E65C87}</Project>
+      <Name>PlayFab</Name>
+    </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Editor.csproj">
       <Project>{7630380C-39EC-59F3-1064-CFEB3E36C6F2}</Project>
       <Name>PhotonUnityNetworking.Editor</Name>
@@ -988,18 +998,6 @@
     <ProjectReference Include="PhotonUnityNetworking.Utilities.Culling.Editor.csproj">
       <Project>{38C3A10F-0023-32D6-CC6B-87DB7A4490B8}</Project>
       <Name>PhotonUnityNetworking.Utilities.Culling.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="PlayFabEditorExtensions.csproj">
-      <Project>{90CCB214-FAD7-9A3A-C4AC-D2116491E443}</Project>
-      <Name>PlayFabEditorExtensions</Name>
-    </ProjectReference>
-    <ProjectReference Include="PlayFabSDKEditor.csproj">
-      <Project>{D5B69954-F376-BE24-3CAD-C3CFE77300D5}</Project>
-      <Name>PlayFabSDKEditor</Name>
-    </ProjectReference>
-    <ProjectReference Include="PlayFab.csproj">
-      <Project>{5C8311E3-3210-0047-510D-6D1C41E65C87}</Project>
-      <Name>PlayFab</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

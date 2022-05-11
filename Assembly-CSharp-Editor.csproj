@@ -53,26 +53,23 @@
     <UnityVersion>2020.3.6f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="Assets\TBS Framework\Editor\GridGenerators\TriangularHexGridGenerator.cs" />
+    <Compile Include="Assets\GooglePlayGames\Editor\GPGSProjectSettings.cs" />
+    <Compile Include="Assets\TBS Framework\Editor\GridGenerators\RectangularSquareGridGenerator.cs" />
+    <Compile Include="Assets\TBS Framework\Editor\GridHelperUtils.cs" />
+    <Compile Include="Assets\TBS Framework\Editor\GridGenerators\RectangularHexGridGenerator.cs" />
+    <Compile Include="Assets\GooglePlayGames\Editor\GPGSStrings.cs" />
+    <Compile Include="Assets\TBS Framework\Editor\GridGenerators\EquilateralHexGridGenerator.cs" />
     <Compile Include="Assets\TBS Framework\Editor\GridHelper.cs" />
     <Compile Include="Assets\GooglePlayGames\Editor\GPGSUtil.cs" />
     <Compile Include="Assets\TBS Framework\Editor\CustomUnitGeneratorHelper.cs" />
-    <Compile Include="Assets\GooglePlayGames\Editor\GPGSProjectSettings.cs" />
     <Compile Include="Assets\GooglePlayGames\Editor\GPGSAndroidSetupUI.cs" />
-    <Compile Include="Assets\TBS Framework\Editor\GridGenerators\RectangularSquareGridGenerator.cs" />
     <Compile Include="Assets\GooglePlayGames\Editor\NearbyConnectionUI.cs" />
     <Compile Include="Assets\TBS Framework\Editor\GridGenerators\ICellGridGenerator.cs" />
     <Compile Include="Assets\TBS Framework\Editor\GridGenerators\HexagonalHexGridGenerator.cs" />
-    <Compile Include="Assets\TBS Framework\Editor\GridHelperUtils.cs" />
-    <Compile Include="Assets\TBS Framework\Editor\GridGenerators\RectangularHexGridGenerator.cs" />
     <Compile Include="Assets\GooglePlayGames\Editor\GPGSPostBuild.cs" />
     <Compile Include="Assets\GooglePlayGames\Editor\GPGSUpgrader.cs" />
     <Compile Include="Assets\GooglePlayGames\Editor\GPGSDocsUI.cs" />
-    <Compile Include="Assets\GooglePlayGames\Editor\GPGSStrings.cs" />
-    <Compile Include="Assets\TBS Framework\Editor\GridGenerators\EquilateralHexGridGenerator.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\ExternalDependencyManager\Editor\Google.VersionHandlerImpl_v1.2.162.dll" />
@@ -317,9 +314,6 @@
     </Reference>
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.6f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
-    </Reference>
-    <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
-      <HintPath>C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Editor\SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="Photon3Unity3D">
       <HintPath>Assets\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.dll</HintPath>
@@ -790,6 +784,18 @@
       <Project>{99A7362D-12AF-1540-0071-D31D06642F43}</Project>
       <Name>PhotonChat</Name>
     </ProjectReference>
+    <ProjectReference Include="PlayFabSDKEditor.csproj">
+      <Project>{D5B69954-F376-BE24-3CAD-C3CFE77300D5}</Project>
+      <Name>PlayFabSDKEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="PlayFabEditorExtensions.csproj">
+      <Project>{90CCB214-FAD7-9A3A-C4AC-D2116491E443}</Project>
+      <Name>PlayFabEditorExtensions</Name>
+    </ProjectReference>
+    <ProjectReference Include="PlayFab.csproj">
+      <Project>{5C8311E3-3210-0047-510D-6D1C41E65C87}</Project>
+      <Name>PlayFab</Name>
+    </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Editor.csproj">
       <Project>{7630380C-39EC-59F3-1064-CFEB3E36C6F2}</Project>
       <Name>PhotonUnityNetworking.Editor</Name>
@@ -821,18 +827,6 @@
     <ProjectReference Include="PhotonUnityNetworking.Utilities.Culling.Editor.csproj">
       <Project>{38C3A10F-0023-32D6-CC6B-87DB7A4490B8}</Project>
       <Name>PhotonUnityNetworking.Utilities.Culling.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="PlayFabEditorExtensions.csproj">
-      <Project>{90CCB214-FAD7-9A3A-C4AC-D2116491E443}</Project>
-      <Name>PlayFabEditorExtensions</Name>
-    </ProjectReference>
-    <ProjectReference Include="PlayFabSDKEditor.csproj">
-      <Project>{D5B69954-F376-BE24-3CAD-C3CFE77300D5}</Project>
-      <Name>PlayFabSDKEditor</Name>
-    </ProjectReference>
-    <ProjectReference Include="PlayFab.csproj">
-      <Project>{5C8311E3-3210-0047-510D-6D1C41E65C87}</Project>
-      <Name>PlayFab</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
