@@ -53,6 +53,9 @@
     <UnityVersion>2020.3.6f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
+  </ItemGroup>
+  <ItemGroup>
     <Compile Include="Assets\Photon\PhotonRealtime\Demos\DemoLoadBalancing\ConnectAndJoinRandomLb.cs" />
     <Compile Include="Assets\TBS Framework\Scripts\Players\HumanPlayer.cs" />
     <Compile Include="Assets\Player_Manager.cs" />
@@ -171,7 +174,7 @@
     <Compile Include="Assets\GooglePlayGames\BasicApi\Video\VideoCapabilities.cs" />
     <Compile Include="Assets\GooglePlayGames\BasicApi\DummyClient.cs" />
     <Compile Include="Assets\GooglePlayGames\ISocialPlatform\PlayGamesPlatform.cs" />
-    <Compile Include="Assets\Best_Department\Scripts\PlayFab_Scripts\PlayFabManager___.cs" />
+    <Compile Include="Assets\Best_Department\Scripts\PlayFab_Scripts\PlayFabManager.cs" />
     <Compile Include="Assets\TBS Framework\Examples\Example4\Scripts\CaptureProtectionEvaluator.cs" />
     <Compile Include="Assets\UIManager.cs" />
     <Compile Include="Assets\TBS Framework\Examples\Example5\Scripts\LightningAIAction.cs" />
